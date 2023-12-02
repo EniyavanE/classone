@@ -1,0 +1,6 @@
+Difference between window and document object:
+	-->Window is a global object where as document object is the property of window.
+	-->window represents the single tab and document represents the whole html tree.
+       --> using the document object, javascript can add,delete,modify html element and attributes of css.
+	-->document can be accessed using window.document property or we can use document object directly.
+	-->screen is the window property holds information about the browser screen. It almost similar to document.screen object.
