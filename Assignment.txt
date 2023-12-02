@@ -1,0 +1,42 @@
+1)HTTP 
+	Hypertext Transfer Protocol is used to request and send information between the client and the server.
+Differences between HTTP1.1 and HTTP2:
+	-->Http2 is faster and more efficient than http1.1
+	-->Http2 prioritize the content which one should load first where as http1.1 doesn't prioritize.
+	-->http2 sends all the content in a single tcp connection called multiplexing but http1.1 sends content one by one.
+	-->http2 has advanced compression called HPACK it compress the http message and sends it fast on the otherhand http1.1 doesn't compress the http message. 
+
+
+
+
+
+
+2)Objects and its internal representatives
+	-->Its a non-primitive datatype.
+        -->Object contains one or more data with any combination of primitive datatypes.
+        -->It is in unordered form.It stores data in key value pair.
+        -->Obejcts can be created using different methods
+            i)Object literals
+              eg.) let obj1={
+                   name:"Eniyavan",
+                   age:25,
+                   gender:"Male"}
+            ii)Using keyword new
+               eg.) var obj2 = new Object();
+                    obj2.name="Eniyavan";
+                    obj2.age=25;
+                    obj2.gender="Male";
+        -->Methods of accessing the data
+             console.log(obj1.name);
+             console.log([obj1["name"]);
+           If we accessed the unassigned property name we can undefined.
+       -->To add data in object
+           let obj1={
+                   name:"Eniyavan",
+                   age:25,
+                   gender:"Male"}
+
+           i)Dot Notation:
+                 obj1.email="eniyavan133@gmail.com"
+            ii)sqaure bracket notation:
+                 obj1["contact"]=9150831020.
